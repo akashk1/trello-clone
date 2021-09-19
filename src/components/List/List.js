@@ -41,6 +41,7 @@ const List = (props) => {
     newList = newList.filter((_, index) => index != props.index);
     localStorage.setItem("lists", JSON.stringify(newList));
     props.setLists(newList);
+    setDeleteModal(false);
   };
   const DeleteListConfirmation = () => {
     if (props.lists[props.index].cards.length === 0) deleteList();
