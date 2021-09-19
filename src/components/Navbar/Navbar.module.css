@@ -1,0 +1,28 @@
+.add_list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: rgb(29, 29, 70);
+}
+
+.btn {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(143, 46, 17);
+  cursor: pointer;
+  color: wheat;
+}
+
+.btn:hover {
+  background-color: rgb(170, 55, 19);
+}

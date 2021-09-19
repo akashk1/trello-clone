@@ -1,0 +1,6 @@
+.container {
+  height: calc(100vh - 50px);
+  background-color: rgb(166, 178, 247);
+  width: 100%;
+  overflow-x: auto;
+}
